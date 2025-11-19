@@ -744,57 +744,7 @@ class TensorFusionNetwork(nn.Module):
 
 ---
 
-## 📁 Project Structure
 
-```
-tensor-fusion-network/
-│
-├── data/
-│   ├── __init__.py
-│   ├── dataset.py              # CMU-MOSI dataset loader
-│   ├── preprocess.py           # Feature preprocessing
-│   └── utils.py                # Data utilities
-│
-├── models/
-│   ├── __init__.py
-│   ├── tfn.py                  # Main TFN model
-│   ├── subnetworks.py          # Modality embedding subnetworks
-│   ├── tensor_fusion.py        # Tensor fusion layer
-│   └── sentiment_inference.py  # Sentiment inference subnetwork
-│
-├── training/
-│   ├── __init__.py
-│   ├── trainer.py              # Training loop
-│   ├── evaluator.py            # Evaluation metrics
-│   └── loss.py                 # Loss functions
-│
-├── utils/
-│   ├── __init__.py
-│   ├── metrics.py              # Performance metrics
-│   ├── visualization.py        # Result visualization
-│   └── logger.py               # Training logger
-│
-├── configs/
-│   ├── base_config.yaml        # Base configuration
-│   ├── binary_config.yaml      # Binary classification
-│   ├── 5class_config.yaml      # 5-class classification
-│   └── regression_config.yaml  # Regression
-│
-├── notebooks/
-│   └── TFN_EMNLP-17_Implementation.ipynb
-│
-├── scripts/
-│   ├── train.py                # Training script
-│   ├── evaluate.py             # Evaluation script
-│   └── predict.py              # Inference script
-│
-├── requirements.txt
-├── setup.py
-├── README.md
-└── LICENSE
-```
-
----
 
 ---
 
